@@ -1,5 +1,6 @@
-// Variables
-@import './variables';
+// Variables - 현재 @import 사용 안하고 @use로 대체됨
+// @import './variables'; // 260206 수정 :주석처리
+@use './variables' as *; // 260206 추가
 
 // Global styles
 * {
